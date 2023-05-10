@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-dom';
-import { Tabs, TabItem } from '@aws-amplify/ui-react';
+// import { Tabs, TabItem } from '@aws-amplify/ui-react';
 import './App.css';
 import Home from './pages/Home';
 import About from './pages/About';

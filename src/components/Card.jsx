@@ -1,19 +1,6 @@
-import {
-	Card,
-	Image,
-	View,
-	Heading,
-	Flex,
-	Badge,
-	Text,
-	Button,
-	useTheme,
-	Collection,
-	Divider,
-} from '@aws-amplify/ui-react';
+import { Card, Image, View, Heading, Flex, Badge, Text, Button, Collection, Divider } from '@aws-amplify/ui-react';
 
 const DefaultCard = ({ items }) => {
-	const { tokens } = useTheme();
 	return (
 		// <View backgroundColor={tokens.colors.background.secondary} padding={tokens.space.medium}>
 		// 	<Card>
